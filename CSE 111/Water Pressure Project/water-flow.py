@@ -63,7 +63,7 @@ def pressure_gain_from_water_height(height):
     g - is the acceleration from Earths gravity 9.80665 (meter / second2)
     h - is the height of the water column inmeters (height)
     """
-    result_2 = (H2O_Density * 9.80665 * height()) / 1000
+    result_2 = (H2O_Density * 9.80665 * height) / 1000
     return result_2
 
 # Function to Calculate pressure loss from pipes
